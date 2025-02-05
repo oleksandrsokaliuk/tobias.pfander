@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tobias.pfander/static/css/main.68cf8f16.css",
-    "main.js": "/tobias.pfander/static/js/main.c90b26c0.js",
+    "main.js": "/tobias.pfander/static/js/main.39cb2b7a.js",
     "static/media/top-hero-bg.jpg": "/tobias.pfander/static/media/top-hero-bg.1a673732c766797b071f.jpg",
     "static/media/tobias-photo-bike.jpg": "/tobias.pfander/static/media/tobias-photo-bike.64832a312418850e1b1d.jpg",
     "static/media/for-people.jpg": "/tobias.pfander/static/media/for-people.1e8347d3cee7e1087626.jpg",
@@ -24,10 +24,10 @@
     "static/media/christ-icon.svg": "/tobias.pfander/static/media/christ-icon.f8008eca5013b497f86835ff5036c8da.svg",
     "static/media/back-navigation.svg": "/tobias.pfander/static/media/back-navigation.b4f21e4a04bd00730e4e9e685f03bd7d.svg",
     "main.68cf8f16.css.map": "/tobias.pfander/static/css/main.68cf8f16.css.map",
-    "main.c90b26c0.js.map": "/tobias.pfander/static/js/main.c90b26c0.js.map"
+    "main.39cb2b7a.js.map": "/tobias.pfander/static/js/main.39cb2b7a.js.map"
   },
   "entrypoints": [
     "static/css/main.68cf8f16.css",
-    "static/js/main.c90b26c0.js"
+    "static/js/main.39cb2b7a.js"
   ]
 }
