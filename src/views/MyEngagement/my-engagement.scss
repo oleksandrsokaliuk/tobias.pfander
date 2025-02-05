@@ -1,0 +1,86 @@
+.my-engagement {
+  &__header {
+    span {
+      background-color: $text-color-dark-blue;
+      color: $accent-color-orange;
+    }
+  }
+
+  &__content {
+    margin: 20px 0;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    &__text {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      div {
+        flex: 1;
+          h2 {
+            font-size: 1.7rem;
+            margin-bottom: 10px;
+          }
+          p {
+            font-size: 1.5rem;
+          }
+      }
+    }
+    &__quote {
+      position: relative;
+      background: url("./../../assets/engagement-speech.jpg");
+      background-size: cover;
+      background-position: center;
+      max-height: 300px;
+      height: 250px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      p {
+        font-size: 2.2rem;
+        color: $color-white;
+        text-align: center;
+        margin: 70px 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .my-engagement {
+    &__content {
+      &__text {
+        flex-direction: row;
+        justify-content: space-between;
+        div {
+          flex: 0 1 500px;
+          display: flex;
+          flex-direction: column;
+          line-height: 1.5;
+          h2 {
+            font-size: 1.8rem;
+          }
+          p {
+            font-size: 1.3rem;
+          }
+        }
+      }
+      &__quote {
+        max-height: 300px;
+        height: 250px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p {
+          font-size: 2.5rem;
+          color: $color-white;
+        }
+      }
+    }
+  }
+}

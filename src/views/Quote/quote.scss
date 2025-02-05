@@ -1,0 +1,149 @@
+.quote {
+  height: 100vh;
+  min-height: fit-content;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  .quote-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin-top: -150px;
+
+    grid-column: 1 / 7;
+    padding: 188px 0 0 0;
+
+    p {
+      z-index: 3;
+      span {
+        display: block;
+      }
+      span:first-child {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+        line-height: normal;
+
+        strong {
+          text-transform: uppercase;
+          font-weight: inherit;
+        }
+      }
+      span:last-child {
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+      }
+    }
+
+    footer {
+      background-image: url("./../../assets/signature.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 245px;
+      height: 90px;
+      align-self: flex-end;
+      z-index: 3;
+    }
+  }
+}
+
+.quote-icon {
+  position: absolute;
+  background-color: $color-white;
+  height: 188px;
+  width: 308px;
+  color: $accent-color-blue;
+  z-index: 2;
+  &.start {
+    transform: rotate(180deg) translateX(30%);
+    top: 0;
+    left: 0;
+  }
+  &.end {
+    transform: translateX(30%);
+    top: 100%;
+    right: 0;
+  }
+
+  &.goal {
+    height: 70px;
+    width: 70px;
+    color: $color-white;
+    background-color: transparent;
+
+    &.start {
+      transform: rotate(180deg);
+    }
+    &.end {
+      transform: translateY(-100%);
+    }
+  }
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Стили для экранов шириной 1200px и выше (например, для десктопов) */
+@media (min-width: 1200px) {
+  .quote {
+    // height: fit-content;
+    // min-height: 100vh;
+    .quote-container {
+      grid-column: 2 / 12;
+      padding: 75px 5rem;
+      margin: 75px 0;
+      border: 5px solid $accent-color-blue;
+
+      p {
+        span:first-child {
+          font-size: 3rem;
+          font-weight: bold;
+          margin-bottom: 2rem;
+          line-height: 70px;
+        }
+        span:last-child {
+          font-size: 2rem;
+        }
+      }
+
+      footer {
+        width: 470px;
+        height: 175px;
+      }
+    }
+  }
+
+  .quote-icon {
+    height: 250px;
+    width: 350px;
+    &.start {
+      transform: rotate(180deg) translate(50%, 50%);
+    }
+    &.end {
+      transform: translate(50%, -50%);
+    }
+
+    &.goal {
+      height: 130px;
+      width: 130px;
+    }
+  }
+}
+
+/* Стили для экранов шириной 992px - 1199px (например, для планшетов в альбомной ориентации) */
+@media (min-width: 992px) {
+  .quote {
+  }
+}
+
+/* Стили для экранов шириной 768px - 991px (например, для планшетов в портретной ориентации) */
+@media (min-width: 768px) {
+  .quote {
+  }
+}

@@ -1,0 +1,59 @@
+.for-people {
+  &__header {
+    span {
+      background-color: $text-color-dark-blue;
+      color: $color-white;
+    }
+  }
+  &__content-container {
+    padding: 40px 0;
+    display: block;
+    &__image {
+      width: 214px;
+      height: 168px;
+      float: left;
+      margin: 0 20px 20px 0;
+    }
+    &__text {
+      font-size: 1.7rem;
+      height: 100%;
+      p {
+        padding: 3% 0;
+
+        &:first-child {
+          padding-top: 0;
+        }
+
+        &:last-child {
+          padding-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .for-people {
+    &__content-container {
+      padding: 10% 0;
+      display: flex;
+      &__image {
+        width: 610px;
+        height: 480px;
+
+        margin: 0;
+      }
+      &__text {
+        font-size: 1.3rem;
+        height: fit-content;
+        margin-left: -50px;
+        background-color: $accent-color-orange;
+        padding: 1rem;
+        margin-top: 2rem;
+        p {
+          padding: 2% 0;
+        }
+      }
+    }
+  }
+}

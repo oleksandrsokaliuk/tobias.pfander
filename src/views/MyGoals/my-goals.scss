@@ -1,0 +1,53 @@
+.my-goals {
+  &__header {
+    span {
+      background-color: $accent-color-blue;
+      color: $text-color-dark-blue;
+    }
+  }
+  &__content {
+    gap: 140px;
+    &__list {
+      flex: 1;
+      list-style-position: inside;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: 8% 0;
+      font-size: 1.5rem;
+
+      li {
+        margin: 5px 0;
+      }
+    }
+    &__image {
+      flex: 1;
+      align-self: center;
+      max-width: 100%;
+      margin-bottom: 40px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .my-goals {
+    &__content {
+      display: flex;
+      margin-top: 2rem;
+
+      &__list {
+        flex: 1;
+        gap: 1rem;
+        margin: 0;
+        justify-content: center;
+        li {
+          margin: 0;
+        }
+      }
+      &__image {
+        width: 400px;
+        height: fit-content;
+      }
+    }
+  }
+}

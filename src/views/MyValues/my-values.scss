@@ -1,0 +1,66 @@
+.my-values {
+  &__header {
+    span {
+      background-color: $color-white;
+      color: $text-color-dark-blue;
+    }
+  }
+
+  &__content {
+    padding: 40px 0;
+    &__description {
+      font-size: 1.7rem;
+    }
+    &__all-values {
+      display: flex;
+      flex-direction: column;
+      margin-top: 70px;
+      row-gap: 100px;
+      flex-wrap: wrap;
+      .one-value {
+        border: 2px solid $color-white;
+        padding: 70px 20px 40px 20px;
+        position: relative;
+
+        .icon {
+          width: 100px;
+          height: 100px;
+          position: absolute;
+          top: -50px;
+          left: 0;
+          background-color: $accent-color-blue;
+        }
+
+        .title {
+          display: block;
+          font-size: 2rem;
+          font-weight: 700;
+          margin-bottom: 40px;
+        }
+
+        .content {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .my-values {
+    &__content {
+      &__description {
+      }
+      &__all-values {
+        flex-direction: row;
+        column-gap: 5%;
+
+        .one-value {
+          flex: 1 0 20%;
+          height: 350px;
+          min-height: fit-content;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,103 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0 0.5rem;
+  padding: 0 2rem;
+  height: fit-content;
+  min-height: 100vh;
+
+  &.with-header {
+    grid-template-rows: auto 1fr;
+
+    h1 {
+      grid-row-start: 1;
+      grid-row-end: 2;
+      grid-column: 1 / 7;
+      font-size: 2.2rem;
+
+      span {
+        display: block;
+        margin-left: -2rem;
+        padding: 0.2rem 2rem;
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+    > div {
+      grid-row-start: 2;
+      grid-row-end: 3;
+      grid-column: 1 / 7;
+    }
+  }
+
+  &.white-background {
+    background-color: $color-white;
+  }
+
+  &.blue-background {
+    background-color: $accent-color-blue;
+  }
+
+  &.orange-background {
+    background-color: $accent-color-orange;
+  }
+
+  &.quote-type {
+    padding: 0 2rem;
+    align-items: center;
+  }
+
+  &.press {
+    min-height: auto;
+  }
+}
+
+/* Стили для экранов шириной 1200px и выше (например, для десктопов) */
+@media (min-width: 1200px) {
+  .grid-container {
+    grid-template-columns: repeat(12, 1fr);
+    padding: 0 6rem;
+
+    &.orange-background {
+      background-color: $color-white;
+    }
+
+    &.quote-type {
+      padding: 0 6rem;
+    }
+
+    &.with-header {
+      h1 {
+        grid-column: 1 / 9;
+        margin-top: 10%;
+        font-size: 3.5rem;
+
+        span {
+          margin-left: -6rem;
+          padding: 0.2rem 6rem;
+          width: fit-content;
+        }
+      }
+
+      > div {
+        grid-column: 1 / 13;
+      }
+    }
+  }
+}
+
+/* Стили для экранов шириной 992px - 1199px (например, для планшетов в альбомной ориентации) */
+@media (min-width: 992px) {
+  .grid-container {
+    &.quote-type {
+      // padding: 0 6rem;
+    }
+  }
+}
+
+/* Стили для экранов шириной 768px - 991px (например, для планшетов в портретной ориентации) */
+@media (min-width: 768px) {
+  .top-hero {
+  }
+}
