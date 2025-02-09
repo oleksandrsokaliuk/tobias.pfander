@@ -9,7 +9,8 @@
   &__content {
     padding: 40px 0;
     &__description {
-      font-size: 1.7rem;
+      font-size: 1.3rem;
+      line-height: 1.5;
     }
     &__all-values {
       display: flex;
@@ -39,7 +40,8 @@
         }
 
         .content {
-          font-size: 1.5rem;
+          font-size: 1.3rem;
+          line-height: 1.5;
         }
       }
     }
@@ -50,6 +52,7 @@
   .my-values {
     &__content {
       &__description {
+        padding-right: 10rem;
       }
       &__all-values {
         flex-direction: row;
@@ -57,7 +60,6 @@
 
         .one-value {
           flex: 1 0 20%;
-          height: 350px;
           min-height: fit-content;
         }
       }

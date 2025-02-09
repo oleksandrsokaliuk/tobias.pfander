@@ -4,6 +4,7 @@ import Xing from "./../../assets/xing.svg";
 import Facebook from "./../../assets/facebook.svg";
 import Instagram from "./../../assets/instagram.svg";
 import ScrollBackToTop from "../../helpers/ScrollBackToTop/ScrollBackToTop";
+import { Link } from "react-router-dom";
 
 
 
@@ -37,7 +38,7 @@ function Footer() {
           <a href="https://www.instagram.com/tobias.pfander" target="_blank" rel="noopener noreferrer"><img src={Instagram} alt="instagram link"/>Instagram</a>
       </div>
       <div className="impressum">
-        <a href="/impressum">Impressum</a>
+        <Link to="/impressum">Impressum</Link>
       </div>
       <ScrollBackToTop/>
     </footer>

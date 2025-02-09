@@ -26,7 +26,7 @@
         gap: 20px;
 
         h2 {
-          font-size: 4rem;
+          font-size: 5rem;
 
           span {
             display: block;
@@ -73,7 +73,8 @@
   .impressum {
     border-top: 2px solid $color-white;
     grid-column: 1 / -1;
-    padding-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     color: $color-white;
 
     a:hover {
@@ -99,10 +100,10 @@
         color: $color-white;
         display: flex;
         flex-direction: column;
-        gap: 100px;
+        gap: 50px;
 
         h2 {
-          font-size: 8rem;
+          font-size: 5rem;
 
           span {
             display: block;
@@ -132,7 +133,7 @@
       &__image {
         grid-column: 9 / 13;
         justify-self: end;
-        width: 100%;
+        width: 90%;
       }
     }
 
@@ -144,7 +145,7 @@
         padding: 2rem 0;
 
         a {
-          transition: transform .3s ease-in;
+          transition: transform .1s ease-in;
           &:hover {
             transform: scale(1.1);
           }

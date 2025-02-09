@@ -53,7 +53,7 @@ const MainPage = () => {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/tobias.pfander">
        <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/impressum" element={<Impressum />} />

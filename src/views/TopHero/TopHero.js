@@ -28,13 +28,6 @@ function TopHero() {
           </ul>
         </nav>
       </div>
-      {/* <div className="side-buttons">
-        <div className="scroll-down">
-          <a href="#quote">
-            <ArrowForwardIosIcon />
-          </a>
-        </div>
-      </div> */}
     </header>
   );
 }

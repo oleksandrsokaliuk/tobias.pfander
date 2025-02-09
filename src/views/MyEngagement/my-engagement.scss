@@ -17,11 +17,13 @@
       display: flex;
       flex-direction: column;
       gap: 20px;
+      margin: 3rem 0;
+      padding: 0;
 
       div {
         flex: 1;
           h2 {
-            font-size: 1.7rem;
+            font-size: 2rem;
             margin-bottom: 10px;
           }
           p {
@@ -56,13 +58,13 @@
       &__text {
         flex-direction: row;
         justify-content: space-between;
+        padding: 0 10rem 0 0;
         div {
           flex: 0 1 500px;
           display: flex;
           flex-direction: column;
           line-height: 1.5;
           h2 {
-            font-size: 1.8rem;
           }
           p {
             font-size: 1.3rem;
