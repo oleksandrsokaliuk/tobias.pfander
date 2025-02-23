@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tobias.pfander/static/css/main.00d81082.css",
-    "main.js": "/tobias.pfander/static/js/main.b9039d3b.js",
+    "main.css": "/tobias.pfander/static/css/main.fa5aaa22.css",
+    "main.js": "/tobias.pfander/static/js/main.4d2c3b45.js",
     "static/media/top-hero-bg.jpg": "/tobias.pfander/static/media/top-hero-bg.1a673732c766797b071f.jpg",
     "static/media/tobias-photo-bike.jpg": "/tobias.pfander/static/media/tobias-photo-bike.64832a312418850e1b1d.jpg",
     "static/media/for-people.jpg": "/tobias.pfander/static/media/for-people.1e8347d3cee7e1087626.jpg",
@@ -10,7 +10,7 @@
     "static/media/tobias-photo.jpg": "/tobias.pfander/static/media/tobias-photo.f1aab02f910974ada7c2.jpg",
     "static/media/contact.jpg": "/tobias.pfander/static/media/contact.ccc7f9419cb5bfe65a78.jpg",
     "static/media/baden-wurttemberg-icon.svg": "/tobias.pfander/static/media/baden-wurttemberg-icon.89a6fb2395da5038efb82a5dc0f48021.svg",
-    "static/media/signature.jpg": "/tobias.pfander/static/media/signature.502d81155145cea3fdaf.jpg",
+    "static/media/signature.png": "/tobias.pfander/static/media/signature.36410fdbc0c98d981499.png",
     "static/media/linkedin.svg": "/tobias.pfander/static/media/linkedin.b0bd4de74cbfa0f451c9c790dca3f2eb.svg",
     "static/media/progress-icon.svg": "/tobias.pfander/static/media/progress-icon.d39ea20370df778240bd43768bea4350.svg",
     "static/media/instagram.svg": "/tobias.pfander/static/media/instagram.8a09a4b24522b569d653661436a7a36c.svg",
@@ -23,11 +23,11 @@
     "static/media/about-me-list-marker.svg": "/tobias.pfander/static/media/about-me-list-marker.e40f075bb1b2ec12718b.svg",
     "static/media/christ-icon.svg": "/tobias.pfander/static/media/christ-icon.f8008eca5013b497f86835ff5036c8da.svg",
     "static/media/back-navigation.svg": "/tobias.pfander/static/media/back-navigation.b4f21e4a04bd00730e4e9e685f03bd7d.svg",
-    "main.00d81082.css.map": "/tobias.pfander/static/css/main.00d81082.css.map",
-    "main.b9039d3b.js.map": "/tobias.pfander/static/js/main.b9039d3b.js.map"
+    "main.fa5aaa22.css.map": "/tobias.pfander/static/css/main.fa5aaa22.css.map",
+    "main.4d2c3b45.js.map": "/tobias.pfander/static/js/main.4d2c3b45.js.map"
   },
   "entrypoints": [
-    "static/css/main.00d81082.css",
-    "static/js/main.b9039d3b.js"
+    "static/css/main.fa5aaa22.css",
+    "static/js/main.4d2c3b45.js"
   ]
 }
