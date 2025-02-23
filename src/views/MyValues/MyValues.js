@@ -39,9 +39,9 @@ const values = [
   },
   {
     icon: JusticeIcon,
-    titles: ["Konstruktiv und ", "Ehrlich"],
+    titles: ["Konstruktiv und ", "ehrlich"],
     content:
-      "Spaltung und radikaler Populismus ist das Gegenmodel zu der Politik, für die ich mich stark machen werde!",
+      "Spaltung und radikaler Populismus ist das Gegenmodell zu der Politik, für die ich mich stark machen werde!",
   },
 ];
 

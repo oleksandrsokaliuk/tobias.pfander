@@ -4,10 +4,7 @@ function TopHero() {
   return (
     <header className="top-hero">
       <div className="menu">
-        <h1>
-          <span>Tobias</span>
-          <span>Pfander</span>
-        </h1>
+      <h1>Tobias Pfander</h1>
         <nav>
           <ul>
             <li>

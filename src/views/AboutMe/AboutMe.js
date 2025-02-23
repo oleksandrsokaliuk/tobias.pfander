@@ -65,13 +65,13 @@ function AboutMe() {
               <span>2001 – heute</span>
               <span>
                 Verkaufsgebietsleiter und Exportleiter im Mittelstand unter
-                anderem ROLF BENZ, Walter Knoll und RENZ
+                anderem ROLF BENZ, Walter Knoll, RENZ und AERO-LIFT
               </span>
             </li>
             <li>
-              <span>seit 2006</span>
+              <span>seit 2007</span>
               <span>
-                Glückliche Beziehung mit meinem Partner, der mein Engagement
+                Glückliche Beziehung mit meinem Partner Dirk, der mein Engagement
                 unterstützt
               </span>
             </li>

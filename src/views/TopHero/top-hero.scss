@@ -18,23 +18,27 @@
     grid-column: 1 / 8;
 
     h1 {
-      width: 100%;
-      font-size: 3.1rem;
-      span {
-        height: 75px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        background-color: $accent-color-blue;
-        color: $text-color-dark-blue;
-      }
-      span:first-child {
-        width: 80%;
-      }
-      span:last-child {
-        width: 90%;
-      }
+      // width: 100%;
+      // font-size: 3.1rem;
+      // span {
+      //   height: 75px;
+      //   display: flex;
+      //   justify-content: center;
+      //   align-items: center;
+      //   width: 100%;
+      //   background-color: $accent-color-blue;
+      //   color: $text-color-dark-blue;
+      // }
+      // span:first-child {
+      //   width: 80%;
+      // }
+      // span:last-child {
+      //   width: 90%;
+      // }
+      color: $accent-color-blue;
+      text-align: center;
+      font-size: 3.7rem;
+
     }
     nav {
       width: 100%;
@@ -67,18 +71,7 @@
               top: 100%;
               left: 0;
               z-index: -1;
-            }
-
-            &.black::after {
-              background-color: $german-flag-black;
-            }
-
-            &.red::after {
-              background-color: $german-flag-red;
-            }
-
-            &.golden::after {
-              background-color: $german-flag-golden;
+              background-color: $accent-color-blue;
             }
 
             &:hover {
@@ -165,22 +158,24 @@
     background-position: center;
 
     div.menu {
-      grid-column: 1 / 7;
+      grid-column: 1 / 9;
       position: static;
 
       h1 {
-        font-size: 5rem;
+        // font-size: 5rem;
 
-        span {
-        height: 7rem;
+        // span {
+        // height: 7rem;
 
-        }
-        span:first-child {
-          width: 80%;
-        }
-        span:last-child {
-          width: 90%;
-        }
+        // }
+        // span:first-child {
+        //   width: 80%;
+        // }
+        // span:last-child {
+        //   width: 90%;
+        // }
+
+        font-size: 6.5rem;
       }
 
       nav {
